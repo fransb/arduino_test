@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
-		<cconfiguration id="de.innot.avreclipse.configuration.app.debug.2113411158">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="de.innot.avreclipse.configuration.app.debug.2113411158" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+		<cconfiguration id="de.innot.avreclipse.configuration.app.debug.2113411158.784684409">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="de.innot.avreclipse.configuration.app.debug.2113411158.784684409" moduleId="org.eclipse.cdt.core.settings" name="arduino_uno">
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -13,149 +13,97 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="de.innot.avreclipse.buildArtefactType.app" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=de.innot.avreclipse.buildArtefactType.app" description="" id="de.innot.avreclipse.configuration.app.debug.2113411158" name="Debug" parent="de.innot.avreclipse.configuration.app.debug">
-					<folderInfo id="de.innot.avreclipse.configuration.app.debug.2113411158." name="/" resourcePath="">
-						<toolChain id="de.innot.avreclipse.toolchain.winavr.app.debug.2127717353" name="AVR-GCC Toolchain" superClass="de.innot.avreclipse.toolchain.winavr.app.debug">
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.objcopy.flash.app.debug.1071568030" name="Generate HEX file for Flash memory" superClass="de.innot.avreclipse.toolchain.options.toolchain.objcopy.flash.app.debug" value="true" valueType="boolean"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.objcopy.eeprom.app.debug.1439601433" name="Generate HEX file for EEPROM" superClass="de.innot.avreclipse.toolchain.options.toolchain.objcopy.eeprom.app.debug"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.debug.999714206" name="Generate Extended Listing (Source + generated Assembler)" superClass="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.debug"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.size.app.debug.1002198409" name="Print Size" superClass="de.innot.avreclipse.toolchain.options.toolchain.size.app.debug"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.debug.733088333" name="AVRDude" superClass="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.debug"/>
-							<targetPlatform id="de.innot.avreclipse.targetplatform.winavr.app.debug.180912406" name="AVR Cross-Target" superClass="de.innot.avreclipse.targetplatform.winavr.app.debug"/>
-							<builder buildPath="${workspace_loc:/arduino_test}/Debug" id="de.innot.avreclipse.target.builder.winavr.app.debug.1013670698" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="AVR GNU Make Builder" superClass="de.innot.avreclipse.target.builder.winavr.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.assembler.winavr.app.debug.1795903607" name="AVR Assembler" superClass="de.innot.avreclipse.tool.assembler.winavr.app.debug">
-								<option id="de.innot.avreclipse.assembler.option.debug.level.742356609" name="Generate Debugging Info" superClass="de.innot.avreclipse.assembler.option.debug.level"/>
-								<inputType id="de.innot.avreclipse.tool.assembler.input.575085066" superClass="de.innot.avreclipse.tool.assembler.input"/>
+				<configuration artifactName="${ProjName}" buildArtefactType="de.innot.avreclipse.buildArtefactType.app" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=de.innot.avreclipse.buildArtefactType.app" description="" id="de.innot.avreclipse.configuration.app.debug.2113411158.784684409" name="arduino_uno" parent="de.innot.avreclipse.configuration.app.debug">
+					<folderInfo id="de.innot.avreclipse.configuration.app.debug.2113411158.784684409." name="/" resourcePath="">
+						<toolChain id="de.innot.avreclipse.toolchain.winavr.app.debug.543379904" name="AVR-GCC Toolchain" superClass="de.innot.avreclipse.toolchain.winavr.app.debug">
+							<option id="de.innot.avreclipse.toolchain.options.toolchain.objcopy.flash.app.debug.422798375" name="Generate HEX file for Flash memory" superClass="de.innot.avreclipse.toolchain.options.toolchain.objcopy.flash.app.debug" value="true" valueType="boolean"/>
+							<option id="de.innot.avreclipse.toolchain.options.toolchain.objcopy.eeprom.app.debug.1003188860" name="Generate HEX file for EEPROM" superClass="de.innot.avreclipse.toolchain.options.toolchain.objcopy.eeprom.app.debug" value="true" valueType="boolean"/>
+							<option id="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.debug.199633385" name="Generate Extended Listing (Source + generated Assembler)" superClass="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.debug"/>
+							<option id="de.innot.avreclipse.toolchain.options.toolchain.size.app.debug.1855427710" name="Print Size" superClass="de.innot.avreclipse.toolchain.options.toolchain.size.app.debug"/>
+							<option id="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.debug.1868613575" name="AVRDude" superClass="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.debug"/>
+							<targetPlatform id="de.innot.avreclipse.targetplatform.winavr.app.debug.2094282887" name="AVR Cross-Target" superClass="de.innot.avreclipse.targetplatform.winavr.app.debug"/>
+							<builder buildPath="${workspace_loc:/arduino_test}/Debug" id="de.innot.avreclipse.target.builder.winavr.app.debug.551333832" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="AVR GNU Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="de.innot.avreclipse.target.builder.winavr.app.debug"/>
+							<tool id="de.innot.avreclipse.tool.assembler.winavr.app.debug.2068654751" name="AVR Assembler" superClass="de.innot.avreclipse.tool.assembler.winavr.app.debug">
+								<option id="de.innot.avreclipse.assembler.option.debug.level.292317467" name="Generate Debugging Info" superClass="de.innot.avreclipse.assembler.option.debug.level"/>
+								<inputType id="de.innot.avreclipse.tool.assembler.input.327262629" superClass="de.innot.avreclipse.tool.assembler.input"/>
 							</tool>
-							<tool id="de.innot.avreclipse.tool.compiler.winavr.app.debug.464339242" name="AVR Compiler" superClass="de.innot.avreclipse.tool.compiler.winavr.app.debug">
-								<option id="de.innot.avreclipse.compiler.option.debug.level.517171886" name="Generate Debugging Info" superClass="de.innot.avreclipse.compiler.option.debug.level"/>
-								<option id="de.innot.avreclipse.compiler.option.optimize.1919839916" name="Optimization Level" superClass="de.innot.avreclipse.compiler.option.optimize" value="de.innot.avreclipse.compiler.optimize.size" valueType="enumerated"/>
-								<option id="de.innot.avreclipse.compiler.option.incpath.422034552" name="Include Paths (-I)" superClass="de.innot.avreclipse.compiler.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/arduino_core/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-								</option>
-								<option id="de.innot.avreclipse.compiler.option.optimize.packstruct.33236006" name="Pack structs (-fpack-struct)" superClass="de.innot.avreclipse.compiler.option.optimize.packstruct" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.compiler.option.optimize.shortenums.1895960673" name="Short enums (-fshort-enums)" superClass="de.innot.avreclipse.compiler.option.optimize.shortenums" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.compiler.option.optimize.other.857871727" name="Other Optimization Flags" superClass="de.innot.avreclipse.compiler.option.optimize.other" value="" valueType="string"/>
-								<option id="de.innot.avreclipse.compiler.option.language.uchar.961570616" name="char is unsigned (-funsigned-char)" superClass="de.innot.avreclipse.compiler.option.language.uchar" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.compiler.option.language.ubitfields.2014127034" name="bitfields are unsigned (-funsigned-bitfields)" superClass="de.innot.avreclipse.compiler.option.language.ubitfields" value="false" valueType="boolean"/>
-								<inputType id="de.innot.avreclipse.compiler.winavr.input.130194358" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
-							</tool>
-							<tool id="de.innot.avreclipse.tool.cppcompiler.app.debug.1663898544" name="AVR C++ Compiler" superClass="de.innot.avreclipse.tool.cppcompiler.app.debug">
-								<option id="de.innot.avreclipse.cppcompiler.option.debug.level.169765571" name="Generate Debugging Info" superClass="de.innot.avreclipse.cppcompiler.option.debug.level"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.optimize.211669364" name="Optimization Level" superClass="de.innot.avreclipse.cppcompiler.option.optimize" value="de.innot.avreclipse.cppcompiler.optimize.size" valueType="enumerated"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.incpath.1663859499" name="Include Paths (-I)" superClass="de.innot.avreclipse.cppcompiler.option.incpath" valueType="includePath">
+							<tool id="de.innot.avreclipse.tool.compiler.winavr.app.debug.379688862" name="AVR Compiler" superClass="de.innot.avreclipse.tool.compiler.winavr.app.debug">
+								<option id="de.innot.avreclipse.compiler.option.debug.level.327413682" name="Generate Debugging Info" superClass="de.innot.avreclipse.compiler.option.debug.level"/>
+								<option id="de.innot.avreclipse.compiler.option.optimize.625737326" name="Optimization Level" superClass="de.innot.avreclipse.compiler.option.optimize" value="de.innot.avreclipse.compiler.optimize.size" valueType="enumerated"/>
+								<option id="de.innot.avreclipse.compiler.option.incpath.984040470" name="Include Paths (-I)" superClass="de.innot.avreclipse.compiler.option.incpath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/arduino_core/src}&quot;"/>
 								</option>
-								<option id="de.innot.avreclipse.cppcompiler.option.optimize.packstruct.1617039420" name="Pack structs (-fpack-struct)" superClass="de.innot.avreclipse.cppcompiler.option.optimize.packstruct" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.optimize.shortenums.1609599982" name="Short enums (-fshort-enums)" superClass="de.innot.avreclipse.cppcompiler.option.optimize.shortenums" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.optimize.other.1176720430" name="Other Optimization Flags" superClass="de.innot.avreclipse.cppcompiler.option.optimize.other" value="" valueType="string"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.language.uchar.737696011" name="char is unsigned (-funsigned-char)" superClass="de.innot.avreclipse.cppcompiler.option.language.uchar" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.language.ubitfields.2031449782" name="bitfields are unsigned (-funsigned-bitfields)" superClass="de.innot.avreclipse.cppcompiler.option.language.ubitfields" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.language.noexceptions.1750898318" name="Do not use Exceptions (-fno-exceptions)" superClass="de.innot.avreclipse.cppcompiler.option.language.noexceptions" value="true" valueType="boolean"/>
-								<inputType id="de.innot.avreclipse.cppcompiler.input.1854419713" superClass="de.innot.avreclipse.cppcompiler.input"/>
+								<option id="de.innot.avreclipse.compiler.option.optimize.packstruct.21896186" name="Pack structs (-fpack-struct)" superClass="de.innot.avreclipse.compiler.option.optimize.packstruct" value="false" valueType="boolean"/>
+								<option id="de.innot.avreclipse.compiler.option.optimize.shortenums.1523135197" name="Short enums (-fshort-enums)" superClass="de.innot.avreclipse.compiler.option.optimize.shortenums" value="false" valueType="boolean"/>
+								<option id="de.innot.avreclipse.compiler.option.optimize.other.132997045" name="Other Optimization Flags" superClass="de.innot.avreclipse.compiler.option.optimize.other" value="" valueType="string"/>
+								<option id="de.innot.avreclipse.compiler.option.language.uchar.471135597" name="char is unsigned (-funsigned-char)" superClass="de.innot.avreclipse.compiler.option.language.uchar" value="false" valueType="boolean"/>
+								<option id="de.innot.avreclipse.compiler.option.language.ubitfields.1010379540" name="bitfields are unsigned (-funsigned-bitfields)" superClass="de.innot.avreclipse.compiler.option.language.ubitfields" value="false" valueType="boolean"/>
+								<inputType id="de.innot.avreclipse.compiler.winavr.input.393247392" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
 							</tool>
-							<tool id="de.innot.avreclipse.tool.linker.winavr.app.debug.1470514747" name="AVR C Linker" superClass="de.innot.avreclipse.tool.linker.winavr.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.cpplinker.app.debug.1475012382" name="AVR C++ Linker" superClass="de.innot.avreclipse.tool.cpplinker.app.debug">
-								<option id="de.innot.avreclipse.cpplinker.option.libs.578819303" name="Libraries (-l)" superClass="de.innot.avreclipse.cpplinker.option.libs" valueType="libs">
+							<tool id="de.innot.avreclipse.tool.cppcompiler.app.debug.868842096" name="AVR C++ Compiler" superClass="de.innot.avreclipse.tool.cppcompiler.app.debug">
+								<option id="de.innot.avreclipse.cppcompiler.option.debug.level.31414026" name="Generate Debugging Info" superClass="de.innot.avreclipse.cppcompiler.option.debug.level"/>
+								<option id="de.innot.avreclipse.cppcompiler.option.optimize.479937853" name="Optimization Level" superClass="de.innot.avreclipse.cppcompiler.option.optimize" value="de.innot.avreclipse.cppcompiler.optimize.size" valueType="enumerated"/>
+								<option id="de.innot.avreclipse.cppcompiler.option.incpath.1225768184" name="Include Paths (-I)" superClass="de.innot.avreclipse.cppcompiler.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/arduino_core/src}&quot;"/>
+								</option>
+								<option id="de.innot.avreclipse.cppcompiler.option.optimize.packstruct.897733810" name="Pack structs (-fpack-struct)" superClass="de.innot.avreclipse.cppcompiler.option.optimize.packstruct" value="false" valueType="boolean"/>
+								<option id="de.innot.avreclipse.cppcompiler.option.optimize.shortenums.747908076" name="Short enums (-fshort-enums)" superClass="de.innot.avreclipse.cppcompiler.option.optimize.shortenums" value="false" valueType="boolean"/>
+								<option id="de.innot.avreclipse.cppcompiler.option.optimize.other.1630402093" name="Other Optimization Flags" superClass="de.innot.avreclipse.cppcompiler.option.optimize.other" value="" valueType="string"/>
+								<option id="de.innot.avreclipse.cppcompiler.option.language.uchar.531137728" name="char is unsigned (-funsigned-char)" superClass="de.innot.avreclipse.cppcompiler.option.language.uchar" value="false" valueType="boolean"/>
+								<option id="de.innot.avreclipse.cppcompiler.option.language.ubitfields.957575665" name="bitfields are unsigned (-funsigned-bitfields)" superClass="de.innot.avreclipse.cppcompiler.option.language.ubitfields" value="false" valueType="boolean"/>
+								<option id="de.innot.avreclipse.cppcompiler.option.language.noexceptions.177442293" name="Do not use Exceptions (-fno-exceptions)" superClass="de.innot.avreclipse.cppcompiler.option.language.noexceptions" value="true" valueType="boolean"/>
+								<inputType id="de.innot.avreclipse.cppcompiler.input.1373715897" superClass="de.innot.avreclipse.cppcompiler.input"/>
+							</tool>
+							<tool id="de.innot.avreclipse.tool.linker.winavr.app.debug.1679278985" name="AVR C Linker" superClass="de.innot.avreclipse.tool.linker.winavr.app.debug"/>
+							<tool id="de.innot.avreclipse.tool.cpplinker.app.debug.282828741" name="AVR C++ Linker" superClass="de.innot.avreclipse.tool.cpplinker.app.debug">
+								<option id="de.innot.avreclipse.cpplinker.option.libs.1051676405" name="Libraries (-l)" superClass="de.innot.avreclipse.cpplinker.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="arduino_core"/>
+									<listOptionValue builtIn="false" value="m"/>
 								</option>
-								<option id="de.innot.avreclipse.cpplinker.option.libpath.39104786" name="Libraries Path (-L)" superClass="de.innot.avreclipse.cpplinker.option.libpath" valueType="stringList">
+								<option id="de.innot.avreclipse.cpplinker.option.libpath.1788467372" name="Libraries Path (-L)" superClass="de.innot.avreclipse.cpplinker.option.libpath" valueType="stringList">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/arduino_core/328_16MHz}&quot;"/>
 								</option>
-								<inputType id="de.innot.avreclipse.tool.cpplinker.input.1205211408" name="OBJ Files" superClass="de.innot.avreclipse.tool.cpplinker.input">
+								<inputType id="de.innot.avreclipse.tool.cpplinker.input.1754376982" name="OBJ Files" superClass="de.innot.avreclipse.tool.cpplinker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
 								</inputType>
 							</tool>
-							<tool id="de.innot.avreclipse.tool.archiver.winavr.base.517893549" name="AVR Archiver" superClass="de.innot.avreclipse.tool.archiver.winavr.base"/>
-							<tool id="de.innot.avreclipse.tool.objdump.winavr.app.debug.2030019491" name="AVR Create Extended Listing" superClass="de.innot.avreclipse.tool.objdump.winavr.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.objcopy.flash.winavr.app.debug.1069472940" name="AVR Create Flash image" superClass="de.innot.avreclipse.tool.objcopy.flash.winavr.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.objcopy.eeprom.winavr.app.debug.365523534" name="AVR Create EEPROM image" superClass="de.innot.avreclipse.tool.objcopy.eeprom.winavr.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.size.winavr.app.debug.487534188" name="Print Size" superClass="de.innot.avreclipse.tool.size.winavr.app.debug"/>
-							<tool id="de.innot.avreclipse.tool.avrdude.app.debug.222882200" name="AVRDude" superClass="de.innot.avreclipse.tool.avrdude.app.debug"/>
+							<tool id="de.innot.avreclipse.tool.archiver.winavr.base.1289314948" name="AVR Archiver" superClass="de.innot.avreclipse.tool.archiver.winavr.base"/>
+							<tool id="de.innot.avreclipse.tool.objdump.winavr.app.debug.1132491568" name="AVR Create Extended Listing" superClass="de.innot.avreclipse.tool.objdump.winavr.app.debug"/>
+							<tool id="de.innot.avreclipse.tool.objcopy.flash.winavr.app.debug.2035376953" name="AVR Create Flash image" superClass="de.innot.avreclipse.tool.objcopy.flash.winavr.app.debug"/>
+							<tool id="de.innot.avreclipse.tool.objcopy.eeprom.winavr.app.debug.1500951513" name="AVR Create EEPROM image" superClass="de.innot.avreclipse.tool.objcopy.eeprom.winavr.app.debug"/>
+							<tool id="de.innot.avreclipse.tool.size.winavr.app.debug.1975687940" name="Print Size" superClass="de.innot.avreclipse.tool.size.winavr.app.debug"/>
+							<tool id="de.innot.avreclipse.tool.avrdude.app.debug.1687511966" name="AVRDude" superClass="de.innot.avreclipse.tool.avrdude.app.debug"/>
 						</toolChain>
 					</folderInfo>
-					<sourceEntries>
-						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
-					</sourceEntries>
-				</configuration>
-			</storageModule>
-			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
-		</cconfiguration>
-		<cconfiguration id="de.innot.avreclipse.configuration.app.release.228129184">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="de.innot.avreclipse.configuration.app.release.228129184" moduleId="org.eclipse.cdt.core.settings" name="Release">
-				<externalSettings/>
-				<extensions>
-					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
-				</extensions>
-			</storageModule>
-			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="${ProjName}" buildArtefactType="de.innot.avreclipse.buildArtefactType.app" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=de.innot.avreclipse.buildArtefactType.app" description="" id="de.innot.avreclipse.configuration.app.release.228129184" name="Release" parent="de.innot.avreclipse.configuration.app.release">
-					<folderInfo id="de.innot.avreclipse.configuration.app.release.228129184." name="/" resourcePath="">
-						<toolChain id="de.innot.avreclipse.toolchain.winavr.app.release.147599084" name="AVR-GCC Toolchain" superClass="de.innot.avreclipse.toolchain.winavr.app.release">
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.objcopy.flash.app.release.663416533" name="Generate HEX file for Flash memory" superClass="de.innot.avreclipse.toolchain.options.toolchain.objcopy.flash.app.release"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.objcopy.eeprom.app.release.2108443236" name="Generate HEX file for EEPROM" superClass="de.innot.avreclipse.toolchain.options.toolchain.objcopy.eeprom.app.release" value="false" valueType="boolean"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.release.535804909" name="Generate Extended Listing (Source + generated Assembler)" superClass="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.release"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.size.app.release.656933756" name="Print Size" superClass="de.innot.avreclipse.toolchain.options.toolchain.size.app.release"/>
-							<option id="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.release.1793828300" name="AVRDude" superClass="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.release"/>
-							<targetPlatform id="de.innot.avreclipse.targetplatform.winavr.app.release.833922347" name="AVR Cross-Target" superClass="de.innot.avreclipse.targetplatform.winavr.app.release"/>
-							<builder buildPath="${workspace_loc:/arduino_test}/Release" id="de.innot.avreclipse.target.builder.winavr.app.release.372383525" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="AVR GNU Make Builder" superClass="de.innot.avreclipse.target.builder.winavr.app.release"/>
-							<tool id="de.innot.avreclipse.tool.assembler.winavr.app.release.529144389" name="AVR Assembler" superClass="de.innot.avreclipse.tool.assembler.winavr.app.release">
-								<option id="de.innot.avreclipse.assembler.option.debug.level.1680737165" name="Generate Debugging Info" superClass="de.innot.avreclipse.assembler.option.debug.level" value="de.innot.avreclipse.assembler.option.debug.level.none" valueType="enumerated"/>
-								<inputType id="de.innot.avreclipse.tool.assembler.input.906455261" superClass="de.innot.avreclipse.tool.assembler.input"/>
+					<folderInfo id="de.innot.avreclipse.configuration.app.debug.2113411158.784684409.src" name="/" resourcePath="src">
+						<toolChain id="de.innot.avreclipse.toolchain.winavr.app.debug.881537056" name="AVR-GCC Toolchain" superClass="de.innot.avreclipse.toolchain.winavr.app.debug" unusedChildren="">
+							<option id="de.innot.avreclipse.toolchain.options.toolchain.objcopy.flash.app.debug.1071568030.177608485" name="Generate HEX file for Flash memory" superClass="de.innot.avreclipse.toolchain.options.toolchain.objcopy.flash.app.debug.1071568030"/>
+							<option id="de.innot.avreclipse.toolchain.options.toolchain.objcopy.eeprom.app.debug.1439601433.1528534538" name="Generate HEX file for EEPROM" superClass="de.innot.avreclipse.toolchain.options.toolchain.objcopy.eeprom.app.debug.1439601433"/>
+							<option id="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.debug.999714206.17493310" name="Generate Extended Listing (Source + generated Assembler)" superClass="de.innot.avreclipse.toolchain.options.toolchain.objdump.app.debug.999714206"/>
+							<option id="de.innot.avreclipse.toolchain.options.toolchain.size.app.debug.1002198409.185012459" name="Print Size" superClass="de.innot.avreclipse.toolchain.options.toolchain.size.app.debug.1002198409"/>
+							<option id="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.debug.733088333.692145278" name="AVRDude" superClass="de.innot.avreclipse.toolchain.options.toolchain.avrdude.app.debug.733088333"/>
+							<targetPlatform id="de.innot.avreclipse.targetplatform.winavr.app.debug.1543048125" name="AVR Cross-Target" superClass="de.innot.avreclipse.targetplatform.winavr.app.debug"/>
+							<tool id="de.innot.avreclipse.tool.assembler.winavr.app.debug.1136070340" name="AVR Assembler" superClass="de.innot.avreclipse.tool.assembler.winavr.app.debug.2068654751">
+								<inputType id="de.innot.avreclipse.tool.assembler.input.2089705313" superClass="de.innot.avreclipse.tool.assembler.input"/>
 							</tool>
-							<tool id="de.innot.avreclipse.tool.compiler.winavr.app.release.615562267" name="AVR Compiler" superClass="de.innot.avreclipse.tool.compiler.winavr.app.release">
-								<option id="de.innot.avreclipse.compiler.option.debug.level.52151901" name="Generate Debugging Info" superClass="de.innot.avreclipse.compiler.option.debug.level" value="de.innot.avreclipse.compiler.option.debug.level.none" valueType="enumerated"/>
-								<option id="de.innot.avreclipse.compiler.option.optimize.1381662445" name="Optimization Level" superClass="de.innot.avreclipse.compiler.option.optimize" value="de.innot.avreclipse.compiler.optimize.size" valueType="enumerated"/>
-								<option id="de.innot.avreclipse.compiler.option.incpath.1880712231" name="Include Paths (-I)" superClass="de.innot.avreclipse.compiler.option.incpath" valueType="includePath">
+							<tool id="de.innot.avreclipse.tool.compiler.winavr.app.debug.1609264562" name="AVR Compiler" superClass="de.innot.avreclipse.tool.compiler.winavr.app.debug.379688862">
+								<option id="de.innot.avreclipse.compiler.option.incpath.1627525368" name="Include Paths (-I)" superClass="de.innot.avreclipse.compiler.option.incpath" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/arduino_core/src}&quot;"/>
 								</option>
-								<option id="de.innot.avreclipse.compiler.option.optimize.packstruct.69214569" name="Pack structs (-fpack-struct)" superClass="de.innot.avreclipse.compiler.option.optimize.packstruct" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.compiler.option.optimize.shortenums.1091226737" name="Short enums (-fshort-enums)" superClass="de.innot.avreclipse.compiler.option.optimize.shortenums" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.compiler.option.language.uchar.1876241228" name="char is unsigned (-funsigned-char)" superClass="de.innot.avreclipse.compiler.option.language.uchar" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.compiler.option.language.ubitfields.1110495644" name="bitfields are unsigned (-funsigned-bitfields)" superClass="de.innot.avreclipse.compiler.option.language.ubitfields" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.compiler.option.verbose.1050758302" name="Verbose (-v)" superClass="de.innot.avreclipse.compiler.option.verbose" value="true" valueType="boolean"/>
-								<inputType id="de.innot.avreclipse.compiler.winavr.input.1367706828" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
+								<inputType id="de.innot.avreclipse.compiler.winavr.input.402573136" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
 							</tool>
-							<tool id="de.innot.avreclipse.tool.cppcompiler.app.release.1323196254" name="AVR C++ Compiler" superClass="de.innot.avreclipse.tool.cppcompiler.app.release">
-								<option id="de.innot.avreclipse.cppcompiler.option.debug.level.2743307" name="Generate Debugging Info" superClass="de.innot.avreclipse.cppcompiler.option.debug.level" value="de.innot.avreclipse.cppcompiler.option.debug.level.none" valueType="enumerated"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.optimize.1312012692" name="Optimization Level" superClass="de.innot.avreclipse.cppcompiler.option.optimize" value="de.innot.avreclipse.cppcompiler.optimize.size" valueType="enumerated"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.incpath.836012446" name="Include Paths (-I)" superClass="de.innot.avreclipse.cppcompiler.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/arduino_core/src}&quot;"/>
-								</option>
-								<option id="de.innot.avreclipse.cppcompiler.option.optimize.packstruct.1174296782" name="Pack structs (-fpack-struct)" superClass="de.innot.avreclipse.cppcompiler.option.optimize.packstruct" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.optimize.shortenums.1141927836" name="Short enums (-fshort-enums)" superClass="de.innot.avreclipse.cppcompiler.option.optimize.shortenums" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.language.uchar.2106787340" name="char is unsigned (-funsigned-char)" superClass="de.innot.avreclipse.cppcompiler.option.language.uchar" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.language.ubitfields.430797563" name="bitfields are unsigned (-funsigned-bitfields)" superClass="de.innot.avreclipse.cppcompiler.option.language.ubitfields" value="false" valueType="boolean"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.language.noexceptions.1960445960" name="Do not use Exceptions (-fno-exceptions)" superClass="de.innot.avreclipse.cppcompiler.option.language.noexceptions" value="true" valueType="boolean"/>
-								<option id="de.innot.avreclipse.cppcompiler.option.verbose.547095646" name="Verbose (-v)" superClass="de.innot.avreclipse.cppcompiler.option.verbose" value="true" valueType="boolean"/>
-								<inputType id="de.innot.avreclipse.cppcompiler.input.1022804274" superClass="de.innot.avreclipse.cppcompiler.input"/>
+							<tool id="de.innot.avreclipse.tool.cppcompiler.app.debug.754427301" name="AVR C++ Compiler" superClass="de.innot.avreclipse.tool.cppcompiler.app.debug.868842096">
+								<inputType id="de.innot.avreclipse.cppcompiler.input.1740599654" superClass="de.innot.avreclipse.cppcompiler.input"/>
 							</tool>
-							<tool id="de.innot.avreclipse.tool.linker.winavr.app.release.1317005170" name="AVR C Linker" superClass="de.innot.avreclipse.tool.linker.winavr.app.release"/>
-							<tool id="de.innot.avreclipse.tool.cpplinker.app.release.1163873488" name="AVR C++ Linker" superClass="de.innot.avreclipse.tool.cpplinker.app.release">
-								<option id="de.innot.avreclipse.cpplinker.option.libs.1625956577" name="Libraries (-l)" superClass="de.innot.avreclipse.cpplinker.option.libs" valueType="libs">
-									<listOptionValue builtIn="false" value="arduino_core"/>
-								</option>
-								<option id="de.innot.avreclipse.cpplinker.option.libpath.1379269130" name="Libraries Path (-L)" superClass="de.innot.avreclipse.cpplinker.option.libpath" valueType="stringList">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/arduino_core/328_16MHz}&quot;"/>
-								</option>
-								<inputType id="de.innot.avreclipse.tool.cpplinker.input.539418013" name="OBJ Files" superClass="de.innot.avreclipse.tool.cpplinker.input">
-									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
-									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
-								</inputType>
-							</tool>
-							<tool id="de.innot.avreclipse.tool.archiver.winavr.base.1924469074" name="AVR Archiver" superClass="de.innot.avreclipse.tool.archiver.winavr.base"/>
-							<tool id="de.innot.avreclipse.tool.objdump.winavr.app.release.78044292" name="AVR Create Extended Listing" superClass="de.innot.avreclipse.tool.objdump.winavr.app.release"/>
-							<tool id="de.innot.avreclipse.tool.objcopy.flash.winavr.app.release.621227004" name="AVR Create Flash image" superClass="de.innot.avreclipse.tool.objcopy.flash.winavr.app.release"/>
-							<tool id="de.innot.avreclipse.tool.objcopy.eeprom.winavr.app.release.1306887741" name="AVR Create EEPROM image" superClass="de.innot.avreclipse.tool.objcopy.eeprom.winavr.app.release"/>
-							<tool id="de.innot.avreclipse.tool.size.winavr.app.release.298107953" name="Print Size" superClass="de.innot.avreclipse.tool.size.winavr.app.release"/>
-							<tool id="de.innot.avreclipse.tool.avrdude.app.release.827811882" name="AVRDude" superClass="de.innot.avreclipse.tool.avrdude.app.release"/>
+							<tool id="de.innot.avreclipse.tool.linker.winavr.app.debug.1650107432" name="AVR C Linker" superClass="de.innot.avreclipse.tool.linker.winavr.app.debug.1679278985"/>
+							<tool id="de.innot.avreclipse.tool.cpplinker.app.debug.310987140" name="AVR C++ Linker" superClass="de.innot.avreclipse.tool.cpplinker.app.debug.282828741"/>
+							<tool id="de.innot.avreclipse.tool.archiver.winavr.base.271253969" name="AVR Archiver" superClass="de.innot.avreclipse.tool.archiver.winavr.base.1289314948"/>
+							<tool id="de.innot.avreclipse.tool.objdump.winavr.app.debug.215238771" name="AVR Create Extended Listing" superClass="de.innot.avreclipse.tool.objdump.winavr.app.debug.1132491568"/>
+							<tool id="de.innot.avreclipse.tool.objcopy.flash.winavr.app.debug.1142218745" name="AVR Create Flash image" superClass="de.innot.avreclipse.tool.objcopy.flash.winavr.app.debug.2035376953"/>
+							<tool id="de.innot.avreclipse.tool.objcopy.eeprom.winavr.app.debug.1223867797" name="AVR Create EEPROM image" superClass="de.innot.avreclipse.tool.objcopy.eeprom.winavr.app.debug.1500951513"/>
+							<tool id="de.innot.avreclipse.tool.size.winavr.app.debug.2043720318" name="Print Size" superClass="de.innot.avreclipse.tool.size.winavr.app.debug.1975687940"/>
+							<tool id="de.innot.avreclipse.tool.avrdude.app.debug.184885319" name="AVRDude" superClass="de.innot.avreclipse.tool.avrdude.app.debug.1687511966"/>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
@@ -188,4 +136,5 @@
 			<resource resourceType="PROJECT" workspacePath="/arduino_test"/>
 		</configuration>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>
