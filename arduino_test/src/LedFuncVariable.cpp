@@ -56,7 +56,7 @@ void LedFuncVariable::Hz60() {
 
 
 	if (procent < 33){
-		int cycles = map(procent, 0, 33, 15, 75);
+		int cycles = map(procent, 0, 33, 240, 48);
 
 		ledSwitch(cycles);
 
@@ -66,7 +66,7 @@ void LedFuncVariable::Hz60() {
 		ledSwitch(75);
 
 	} else {
-		int cycles = map(procent, 67, 99, 75, 15);
+		int cycles = map(procent, 67, 99, 48, 240);
 		ledSwitch(cycles);
 	}
 
