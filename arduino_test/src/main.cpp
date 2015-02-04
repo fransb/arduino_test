@@ -6,80 +6,100 @@
  */
 
 #include "Arduino.h"
+#include "LedFuncVariable.h"
+#include "LedFuncFixed.h"
+#include "Button.h"
 
-int led = 12;
-int ledPin = 11;
-byte dim = 0;
-int TimeOff = 0;
-int potpin1 = 0;
-int potpin2 = 1;
-int potpin3 = 2;
-int buttonPin = 2;
-int time = 0;
-bool button = false;
-int delayTime = 15;
-int start = 0;
-int stopp = 255;
+const int led = 12;
+const int buttonLed = 13;
+const int potpin = A0;
+const int buttonPin = 2;
 
-void setupPins() {
+unsigned long StartTime;
+
+
+LedFuncVariable ledFuncVariable;
+LedFuncFixed ledFuncFixed;
+Button button;
+
+enum State {
+  PBIT,
+  Variable,
+  Fixed
+};
+
+State state = PBIT;
+
+void setup() {
   // initialize the digital pin as an output.
   pinMode(led, OUTPUT);
   pinMode(buttonPin, INPUT);
-  Serial.begin(9600);
 
+  pinMode(buttonLed, OUTPUT);
+
+  StartTime = 0;
+
+  Serial.begin(9600);
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
-/*	if ((digitalRead(buttonPin) == HIGH) && (!button)) {
 
-		button = true;
+	unsigned long CurrentTime = millis();
+	unsigned long ElapsedTime = CurrentTime - StartTime;
 
-		int pot1 = analogRead(potpin1);
-		int pot2 = analogRead(potpin2);
-		int pot3 = analogRead(potpin3);
 
-		delayTime = map(pot1, 0, 1023, 0, 250);
 
-		start = map(pot2, 0, 1023, 0, 255);
-		stopp = map(pot3, 0, 1023, 0, 255);
 
-		Serial.println("Delay: ");
-		Serial.println(delayTime);
 
-		Serial.println("Start: ");
-		Serial.println(start);
+	/*
+	if (digitalRead(2)) {
+		digitalWrite(buttonLed, HIGH);
+	} else {
+		digitalWrite(buttonLed, LOW);
+	}*/
 
-		Serial.println("Stop: ");
-		Serial.println(stopp);
+	if ((ElapsedTime > 16) || (StartTime == 0)) {
 
-	} else if (digitalRead(buttonPin) == LOW) {
-		button = false;
-		analogWrite(ledPin, random(start,stopp));
-		delay(delayTime);
+		StartTime = CurrentTime;
+
+		boolean buttonPressed = button.ReadButton();
+
+		switch (state) {
+			case PBIT:
+				state = Variable;
+				break;
+			case Variable:
+
+				if (buttonPressed){
+					state = Fixed;
+				}
+				ledFuncVariable.Hz60();
+				break;
+			case Fixed:
+
+				if (buttonPressed){
+					state = Variable;
+				}
+				ledFuncFixed.Hz60();
+				break;
+			default:
+				break;
+		}
+
 	}
-
-
-
-*/
-  digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(delayTime);               // wait for a second
-  digitalWrite(led, LOW);    // turn the LED off by making the voltage LOW
-  delay(delayTime);               // wait for a second
-  delayTime = delayTime - 50;
-  if (delayTime < 100) {
-	  delayTime = 1000;
-  }
-
-
-
 
 }
 
 
 int main() {
 	init();
-	setupPins();
+
+	setup();
+
+	ledFuncVariable.Init();
+
+
 	Serial.println("start");
 	while(1) {
 		loop();
