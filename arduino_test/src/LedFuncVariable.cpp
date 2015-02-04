@@ -63,7 +63,7 @@ void LedFuncVariable::Hz60() {
 
 
 	} else if (procent < 67) {
-		ledSwitch(75);
+		ledSwitch(48);
 
 	} else {
 		int cycles = map(procent, 67, 99, 48, 240);

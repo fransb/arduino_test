@@ -45,7 +45,7 @@ void setup() {
 // the loop routine runs over and over again forever:
 void loop() {
 
-	unsigned long CurrentTime = millis();
+	unsigned long CurrentTime = micros();
 	unsigned long ElapsedTime = CurrentTime - StartTime;
 
 
@@ -59,8 +59,8 @@ void loop() {
 		digitalWrite(buttonLed, LOW);
 	}*/
 
-	if ((ElapsedTime > 16) || (StartTime == 0)) {
-
+	if ((ElapsedTime > 15618) || (StartTime == 0)) {
+		//TODO borde vara 16667
 		StartTime = CurrentTime;
 
 		boolean buttonPressed = button.ReadButton();
